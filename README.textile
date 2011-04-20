@@ -1,0 +1,10 @@
+h1.  This is the data for GINA's http://docs.gina.alaska.edu website
+
+It is automatically transformed by "Jekyll":http://github.com/mojombo/jekyll into the static website http://docs.gina.alaska.edu
+
+h1. License
+
+All the directories and files in this repository are under a "Attribution-ShareAlaska 3.0 Unported (CC BY-SA 3.0)":http://creativecommons.org/licenses/by-sa/3.0/ license unless otherwise listed at the top of the file or noted below.
+
+Exceptions to this are the 
+* html layout, images and css files started from work by Devit Schizoper - http://LoadFoo.starzonewebhost.com
