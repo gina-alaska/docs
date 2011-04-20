@@ -6,6 +6,8 @@ h2. MODIS NDVI
 
 We are currently publishing a Web Coverage Service with NDVI data covering Alaska derived from MODIS data and provided as weekly datasets. Currently we are providing data for 2000 to 2010.
 
+This service uses eMODIS data courtesy of USGS: "A User-Friendly Data Source By Calli Jenkerson, Thomas Maiersperger, and Gail Schmidt":http://pubs.usgs.gov/of/2010/1055eMODIS .
+
 The URL for the NDVI datasets is _"http://ndvi.gina.alaska.edu/year/modis"_, where _"year"_ is replaced by the year in question.  For example, to get the data for 2009, use  _“http://ndvi.gina.alaska.edu/2009/modis”_.
 
 For each week we are providing bands 1, 2, and the NDVI data at 250m resolution, and the date of acquisition, a snow mask, and all the standard bands at 500m resolution.
