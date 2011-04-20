@@ -1,7 +1,8 @@
 ---
 layout: default
-title: NDVI via WCS
+title: GINA Docs
 ---
-h1. NDVI datasets via WCS
+h1. GINA documentation collection
 
-hello
+* "NDVI":/ndvi
+
