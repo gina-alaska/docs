@@ -8,9 +8,27 @@
 <meta name="keywords" content="keywords"/> 
 <meta name="author" content="author"/> 
 <link rel="stylesheet" type="text/css" href="/css/trans.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="/css/map.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="/css/google.css" media="screen"/>
 <title>Docs:  {{ page.title }}</title>
+
+<script src="/js/OpenLayers.js"> </script>
+<script type="text/javascript">
+        var map, layer;
+        function init(){
+            var layerExtent = new OpenLayers.Bounds(-3500000.0,-3500000.0,3500000.0,3500000.0);
+            map = new OpenLayers.Map( 'map');
+	    layer = new OpenLayers.Layer.XYZ( "Alaska",
+                    "{{page.tile_url}}/${x}/${y}/${z}",
+                    {sphericalMercator: true} );
+            map.addLayer(layer);
+            //map.zoomToExtent(map.restrictedExtent);
+	    map.setCenter(new OpenLayers.LonLat(0,1500000), 3,true,true);
+        }
+</script>
+
 </head>
-<body>
+<body onload="init()">
 <div class="container">
 	<div class="main">
 		<div class="header">
@@ -18,9 +36,16 @@
 				<h1> {{ page.title }}</h1>
 			</div>
 		</div>
-		
+
 		<div class="content">
 			{{content}}
+
+			<br>
+			Here is an example of what the data in the service looks like:
+			<br>
+
+			<div id="map" class="smallmap"></div>
+	
 		</div>
 			
 		<div class="sidenav">

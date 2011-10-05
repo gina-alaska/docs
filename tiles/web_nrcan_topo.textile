@@ -1,0 +1,9 @@
+---
+layout: openlayers_tile
+title: "Tiles: NRCAN Topos"
+tile_url: "http://tiles.proto.gina.alaska.edu/tilesrv/drg_nrcan/"
+rest_url: "http://rest.proto.gina.alaska.edu/rest/ArcGIS/rest/services/drg_nrcan/MapServer"
+---
+h1. Tiles for Web Mercator - NRCAN Topos
+
+This service provides access to provides to the "Natural Resources Canada":http://www.nrcan-rncan.gc.ca/com/index-eng.php 1:250,000 scale topographic covering Canada. For more information, please see "Natural Resources Canada Mapping Services":http://maps.nrcan.gc.ca/topo_e.php . This layer is intended to supplement the other DRG layers by providing topographic data for areas near Alaska that are not covered by the USGS maps.
