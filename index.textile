@@ -5,4 +5,5 @@ title: GINA Docs
 h1. GINA documentation collection
 
 * "NDVI":/ndvi
+* "Tiles for Web Mapping":/tiles
 
