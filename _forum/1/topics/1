@@ -1,0 +1,51 @@
+<!--- 1 -->
+<!--- user 2 --> 
+*Welcome beta testers!* We need your feedback to make this a useful service. See the bottom of this message for our contact information.
+
+This post is to announce the release of the Statewide Mapping WMS service hosted by UAF-GINA. The Statewide Mapping program is a joint effort of the State of Alaska Department of Natural Resources (DNR), Department of Military and Veterans Affairs (DMVA), and the University of Alaska's Geographic Information Network of Alaska (GINA). GINA is hosting the imagery service and archive for the program.
+
+This service contains two main datasets.  The first is a natural color presentation of most of GINA's data holdings with spatial resolutions of less than 15 meters (high resolution satellite and airborne data), with reference layers at larger at larger scales (Landsat and MODIS data).  The first service is intended to seamlessly provide users with the best natural color imagery available.   The second dataset is a 15 meter per pixel Landsat panchromatic mosaic of Alaska, which is presented in black and white.
+
+The URL for the natural color dataset is *"http://wms.alaskamapped.org/cgi-bin/bdl.cgi?"* . <br/><br/>
+
+The above URL must be used with in conjunction with a WMS client. It does not display anything useful on its own.    Instructions on how to load these WMS services into ArcMap are available  "here.":http://forum.gina.alaska.edu/forums/1/topics/4
+
+Here is a example of this dataset - 
+"Hood Lake near Anchorage, Alaska":http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=215343.713058439,1250060.84480903,217561.731975267,1251871.16203195&WIDTH=729&HEIGHT=595&LAYERS=bdl_low_res,bdl_mid_res,bdl_high_res&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE
+
+<IMG SRC='http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=215343.713058439,1250060.84480903,217561.731975267,1251871.16203195&WIDTH=729&HEIGHT=595&LAYERS=bdl_low_res,bdl_mid_res,bdl_high_res&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+<br/><hr/>
+
+<p>The URL for the Landsat panchromatic mosaic is  *"http://wms.alaskamapped.org/cgi-bin/bdl_extras.cgi?"*  . </p>
+Here is an example, again of "Lake Hood":http://wms.alaskamapped.org//cgi-bin/bdl_extras.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=215343,1250060,217561,1251871&WIDTH=300&HEIGHT=300&LAYERS=bdl_landsat_pan_overview,bdl_landsat_pan_full&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE
+
+<IMG SRC='http://wms.alaskamapped.org//cgi-bin/bdl_extras.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=215343,1250060,217561,1251871&WIDTH=300&HEIGHT=300&LAYERS=bdl_landsat_pan_overview,bdl_landsat_pan_full&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+<br/><hr/><br/>
+
+*Instructions* on how to load these WMS services into ArcMap are available "here.":http://forum.gina.alaska.edu/forums/1/topics/4
+
+For more information about Web Mapping Services (WMS),  the "Wikipedia has a  excellent overview":http://en.wikipedia.org/wiki/Web_Map_Service A more detailed overview and the specifications for the WMS service is available from the "OGC's website":http://www.opengeospatial.org/standards/wms .
+
+Please let us know if you have any problems or questions! *Forum posts are appreciated* and will help us to share solutions. Alternatively, please email us at wms@alaskamapped.org, if you prefer.
+<!--- 6 -->
+<!--- user 2 --> 
+A couple of things to keep in mind while using the WMS services:
+# If you can, set the image type of your WMS client uses to request JPEGs rather than PNGs.  JPEGs are smaller so they will take less time in transit and will thus load faster.
+# The largest image that can be requested from the service is 2048x2048 .
+<!--- 7 -->
+<!--- user 4 --> 
+The WMS service works pretty well so far.
+
+Some snapshots from the uDIG application and a local shapefile:
+  http://ak.aoos.org/data/testing/interoperability/udig/WMS/
+
+Info about uDIG:
+  http://udig.refractions.net/confluence/display/UDIG/Home
+
+Update: This is our test mapserver web application.  The WMS service works as well.
+  http://ak.aoos.org/data/testing/interoperability/mapserver/
+
+http://penguin.sfos.uaf.edu/mapserver/xml/maps_i.php
+    Base Map layers : GINA High, Med, Low

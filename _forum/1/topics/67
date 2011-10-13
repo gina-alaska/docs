@@ -1,0 +1,15 @@
+<!--- 97 -->
+<!--- user 2 --> 
+We have added 1:250,000 scale topographic covering Canada.  For more information, please see "Natural Resources Canada Mapping Services":http://maps.nrcan.gc.ca/topo_e.php .
+
+Some examples:
+
+
+*Boundry*
+<IMG SRC="http://dib.gina.alaska.edu/cgi-bin/bdl_extras.cgi?VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:3338&BBOX=620176.185334657,1624667.40709569,636057.218987083,1635538.35275063&WIDTH=503&HEIGHT=345&LAYERS=can_drg_250k_no_limits,drg_2500k_no_limits,drg_250k_no_limits,drg_25k_no_limits,drg_24k_no_limits&STYLES=,,,,&EXCEPTIONS=application/vnd.ogc.se_XML&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+*Eagle*
+<IMG SRC="http://wms.alaskamapped.org//cgi-bin/bdl_extras.cgi?VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:3338&BBOX=604306.695304721,1694929.75507848,623220.223469942,1707876.51542967&WIDTH=503&HEIGHT=345&LAYERS=can_drg_250k_no_limits,drg_2500k_no_limits,drg_250k_no_limits,drg_25k_no_limits,drg_24k_no_limits&STYLES=,,,,&EXCEPTIONS=application/vnd.ogc.se_XML&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+*Hyder*
+<IMG SRC="http://wms.alaskamapped.org//cgi-bin/bdl_extras.cgi?VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:3338&BBOX=1454192.2157316,916840.366708137,1474172.22199745,930517.156711548&WIDTH=503&HEIGHT=345&LAYERS=can_drg_250k_no_limits,drg_2500k_no_limits,drg_250k_no_limits,drg_25k_no_limits,drg_24k_no_limits&STYLES=,,,,&EXCEPTIONS=application/vnd.ogc.se_XML&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >

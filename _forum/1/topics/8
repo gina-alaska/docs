@@ -1,0 +1,17 @@
+<!--- 14 -->
+<!--- user 4 --> 
+Back in July 2005, a WMS Reflector script was posted in PHP.  http://bbs.keyhole.com/ubb/showthreaded.php/Cat/0/Number/36656/page/vc
+
+I hacked it up to work with the Demis and the WMS via wms.alaskamapped.org.
+
+kml and php code can be fetched here:
+http://penguin.sfos.uaf.edu/data/tmp/google/
+
+Demis : http://penguin.sfos.uaf.edu/data/tmp/google/demis.kml
+
+Alaska Mapped : http://penguin.sfos.uaf.edu/data/tmp/google/akmapped.kml
+
+It is slow, but it indeed works.
+<!--- 15 -->
+<!--- user 2 --> 
+Very cool!

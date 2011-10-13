@@ -1,0 +1,21 @@
+<!--- 54 -->
+<!--- user 2 --> 
+We now have a "WMS":http://en.wikipedia.org/wiki/Web_Map_Service feed with near realtime "MODIS":http://modis.gsfc.nasa.gov/ and "AVHRR":http://noaasis.noaa.gov/NOAASIS/ml/avhrr.html data.  The URL for the service is "http://gas.gina.alaska.edu/wms_feed/wms.cgi".  Instructions on how to use the service inside ArcMap can be found "here":http://forum.gina.alaska.edu/forums/4/topics/42 .   MODIS and AVHRR data is put into the service shortly after it is received by GINA.
+
+If you have a potential use for the service please let us know.  We don't have a target audience for the service yet, so its probably not in the most useful form currently.  Please let us know about if you are planning on using it, as we can tune it to your application. 
+
+Things to keep in mind while using the service:
+
+    * The layers in the service are updated as new data comes in, thus older layers can be removed while you are using them. We suggest not using the last couple of AVHRR and MODIS layers, as these will be removed first.
+    * Don’t turn all the layers on! There are on average, over 200 AVHRR images in the service. If all the layers are turned on, it will be quite slow.
+    * The layout of the services layers is probably confusing.  If you have suggestions as to how we should structure them, please let us know. 
+
+If you have any problems with the service, additional questions as to how to use it, or suggestions as to how to make it more useful please let us know. We would really like the service to be useful and feedback is an essential part of this.
+<!--- 58 -->
+<!--- user 49 --> 
+I notice the AVHRR feeds but do not see any options for MODIS.  What am I missing?
+<!--- 62 -->
+<!--- user 2 --> 
+Yikes - Looks like I broke it!  It is fixed now so there should be MODIS imagery in it now.  If you are using Arcmap, you  will find the MODIS layers at the very bottom.
+
+Sorry about that, and thanks for letting us know it was broken!

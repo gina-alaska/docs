@@ -1,0 +1,26 @@
+<!--- 27 -->
+<!--- user 2 --> 
+We just added two new services that provide access to "NOAA's Raster Nautical Charts":http://chartmaker.ncd.noaa.gov/mcd/Raster/Index.htm .  
+
+The first service provides access to the charts in a combined/mosaiced form, with the collars removed.  The URL for the service is "http://wms.alaskamapped.org/cgi-bin/charts.cgi?", and the Get Capabilities document "here": http://wms.alaskamapped.org/cgi-bin/charts.cgi?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities
+
+Some examples:
+
+
+<img src='http://wms.alaskamapped.org/cgi-bin/charts.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=368054.47629769,1143402.69098931,474417.189023116,1228598.69471465&WIDTH=402&HEIGHT=322&LAYERS=noaa_chart_155,noaa_chart_150,noaa_chart_140,noaa_chart_120,noaa_chart_110,noaa_chart_100,noaa_chart_95,noaa_chart_85,noaa_chart_80,noaa_chart_70,noaa_chart_50,noaa_chart_40,noaa_chart_35,noaa_chart_30,noaa_chart_20,noaa_chart_15,noaa_chart_10,noaa_chart_5,noaa_chart_1,noaa_chart_0&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+<img src='http://wms.alaskamapped.org/cgi-bin/charts.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=85414.0512430965,856265.336303696,101330.12072783,869014.028776542&WIDTH=402&HEIGHT=321&LAYERS=noaa_chart_1000,noaa_chart_485,noaa_chart_350,noaa_chart_210,noaa_chart_155,noaa_chart_150,noaa_chart_140,noaa_chart_120,noaa_chart_110,noaa_chart_100,noaa_chart_95,noaa_chart_85,noaa_chart_80,noaa_chart_70,noaa_chart_50,noaa_chart_40,noaa_chart_35,noaa_chart_30,noaa_chart_20,noaa_chart_15,noaa_chart_10,noaa_chart_5,noaa_chart_1,noaa_chart_0&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+<img src='http://wms.alaskamapped.org/cgi-bin/charts.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=408707.27644469,1260859.30172497,412120.310563012,1263593.12507348&WIDTH=402&HEIGHT=321&LAYERS=noaa_chart_1000,noaa_chart_485,noaa_chart_350,noaa_chart_210,noaa_chart_155,noaa_chart_150,noaa_chart_140,noaa_chart_120,noaa_chart_110,noaa_chart_100,noaa_chart_95,noaa_chart_85,noaa_chart_80,noaa_chart_70,noaa_chart_50,noaa_chart_40,noaa_chart_35,noaa_chart_30,noaa_chart_20,noaa_chart_15,noaa_chart_10,noaa_chart_5,noaa_chart_1,noaa_chart_0&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+<br>
+
+The second service provides access to the charts in the form distributed by NOAA including collar information.  Each  chart is included as a separate layer group.  The URL for the service is "http://wms.alaskamapped.org/cgi-bin/charts_nc.cgi?", and the Get Capabilities document "here": http://wms.alaskamapped.org/cgi-bin/charts_nc.cgi?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities
+
+
+<IMG SRC='http://wms.alaskamapped.org//cgi-bin/charts_nc.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=-3231829.59416657,-3876643.8371313,5275882.88774312,2937991.53395059&WIDTH=402&HEIGHT=322&LAYERS=noaa_chart_50_1&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+<BR>
+
+<IMG SRC='http://wms.alaskamapped.org/cgi-bin/charts_nc.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=368054.47629769,1143402.69098931,474417.189023116,1228598.69471465&WIDTH=402&HEIGHT=322&LAYERS=noaa_chart_531_1&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+For more information on the service, including which charts are included and which charts are missing, go "here":http://wms.alaskamapped.org/help/wms_overview/charts.html.

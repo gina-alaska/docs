@@ -1,0 +1,58 @@
+<!--- 195 -->
+<!--- user 2 --> 
+We are currently publishing a "Web Coverage Service":http://en.wikipedia.org/wiki/Web_Coverage_Service with  "NDVI":http://en.wikipedia.org/wiki/Normalized_Difference_Vegetation_Index data covering Alaska derived from MODIS data and provided as weekly datasets.   Currently we are only providing data for 2009, but soon will be adding 2000 onward in addition to some AVHRR derived NDVI datasets.
+
+The URL for the 2009 NDVI datasets is "http://ndvi.gina.alaska.edu/2009/modis" - please try it out and let us know what you think.
+
+For each week we are providing bands 1, 2, and the NDVI data at 250m resolution, and the date of acquisition, a snow mask, and all the standard bands at 500m resolution.
+
+For example, for the week of Jan 29 – Feb 5, 2009 we are providing these layers:
+* MT3RG_2009_029_035_250m_ACQ
+** Date of acquisition
+* MT3RG_2009_029_035_250m_Band1
+* MT3RG_2009_029_035_250m_Band2
+* MT3RG_2009_029_035_250m_BQ
+** The snow mask
+* MT3RG_2009_029_035_250m_NDVI
+* MT3RG_2009_029_035_500m
+** Contains the 7 MODIS 500m bands
+* MT3RG_2009_029_035_500m_BQ
+** The snow mask
+
+The data in the layers is the same as the standard eMODIS data products that are the source for this dataset.  The complete documentation for the dataset can be found "here":ftp://emodisftp.cr.usgs.gov/eMODIS/Alaska/eMODIS_readme_Alaska_121108.doc .   The values in the layers is intended to be consistent with the eMODIS products.  For example, NDVI values in the layers range from 10,000 to -1,999  - to convert these to the standard 1.0 to -1.0 values multiply by 0.0001 .  If you have more questions please read the "documentation":ftp://emodisftp.cr.usgs.gov/eMODIS/Alaska/eMODIS_readme_Alaska_121108.doc .  
+
+We currently have users using this service as an input to their ESRI based models and it appears to be working well for them.
+
+As always, we would love to hear from folks - if you run into problems or have suggestions please let us know by posting here or emailing us at wms@alaskamapped.org .
+<!--- 204 -->
+<!--- user 2 --> 
+We now have 2000 onward on line.  The urls for the services are based on a "http://ndvi.gina.alaska.edu/{year}/modis" scheme, so for example the url to the WCS with data for year 2003 would be http://ndvi.gina.alaska.edu/2003/modis. 
+Please let us know if you have any questions or suggestions.
+<!--- 205 -->
+<!--- user 2 --> 
+We now AVHRR NDVI composites available via WCS.  The data starts in spring of 1990 and runs though the fall of 2009.  Before using the data be sure to check out the "dataset's documentation":http://ivm.cr.usgs.gov/Metadata.doc which explains how the data is scaled along with other important information.
+
+The urls for the services are based on a scheme like: "http://ndvi.gina.alaska.edu/_year_/avhrr" were year is replaced by the year that is desired. 
+
+For example, the url for avhrr ndvi data for the year 2009 would be http://ndvi.gina.alaska.edu/2009/avhrr.
+
+The data is available as biweekly and weekly composites, with the layer names telling the duration of the composite as well as the start and end date.  For example, the layer "AK2009_07day244250" is a weekly composite and started on Julian Day 244 and ended on Julian Day 250.
+
+Each layer contains 14 bands.  Here is a quick overview of the data, but please refer to the "documentation":http://ivm.cr.usgs.gov/Metadata.doc for more details.
+
+# Top of atmosphere Channel 1 reflectance (Calibrated, no atmospheric correction)       
+# Top of atmosphere Channel 2 reflectance (Calibrated, no atmospheric correction)     
+# Radiance
+# Temperature
+# Temperature
+# NDVI
+# Satellite zenith
+# Solar zenith
+# Relative azimuth
+# Atmospherically corrected Channel 1 surface reflectance
+# Atmospherically corrected Channel 2 surface reflectance
+# QA/QC
+# Date index
+# Cloud mask
+
+Please let us know if you have any questions or have any suggestions as to how to make this service more useful.

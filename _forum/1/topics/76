@@ -1,0 +1,38 @@
+<!--- 116 -->
+<!--- user 649 --> 
+Editing Open Street Map is a new favorite hobby (obsession) of mine.  The public domain imagery hosted by GINA is an awesome resource to use for correcting and improving OSM.  You can either use the WMS service in the JOSM editor, or the tile services in the potlatch editor.  The Potlatch editor is browser based, much simpler, and my preferred environment.  In order to have the imagery appear when editing, you need to click on the set options button in the editing tab, set the custom background to <code>http: //tile_server/!/!/!.jpg</code> (or <code>.png</code>)  where  tile_server is some host providing tiles in the Spherical Mercator projection.  The <code>!</code>s will be replaced by potlatch when requesting tiles with the *z,y,x* values, in that order, of the tiles needed.  See http://code.google.com/apis/maps/documentation/overlays.html#Tile_Overlays for more info on the google tiling scheme OSM expects.
+
+The tiles at <code>http: //swmha.gina.alaska.edu/tilesrv/bdl/tile/!/!/!.jpg</code> fit the bill, except they are in *x,y,z* order.
+
+The following very simple python script runs in the background on my computer and redirects the url <code>http: //localhost:8081 /!/!/!.jpg</code> to the correct tiles at GINA.  It works great for me, and will allow me to keep mapping during the winter.  Hopefully someone at GINA can implement something more robust to do server side re-direction (if they haven't already), making it simpler to use the tiles in OSM.
+
+<pre>
+#!/usr/local/bin/python
+
+from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
+import urllib
+
+class MyHandler(BaseHTTPRequestHandler):  
+    def do_GET(self):
+        try:
+            base,ext = self.path[1:].split(".") #remove the leading '/'
+            z,x,y = base.split("/")
+            url = "http://swmha.gina.alaska.edu/tilesrv/bdl/tile/"+x+"/"+y+"/"+z+"."+ext
+            f = urllib.urlopen(url)
+            self.wfile.write(f.read())
+            f.close()  
+        except:
+            print "error with", self.path
+
+def main():
+    try:
+        server = HTTPServer(('', 8081), MyHandler)
+        print 'started httpserver...'
+        server.serve_forever()
+    except KeyboardInterrupt:
+        print '^C received, shutting down server'
+        server.socket.close()
+
+if __name__ == '__main__':
+    main()
+</pre>

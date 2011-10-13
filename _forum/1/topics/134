@@ -1,0 +1,16 @@
+<!--- 192 -->
+<!--- user 2 --> 
+One question we have had recently is how to get information about the imagery displayed in the BDL WMS.  The best way to do this is to use our "WFS Inventory":http://forum.gina.alaska.edu/forums/1/topics/24.  The "ranking" field can be used to determine what is in the BDL - if the "ranking" field has a value, then it is in the BDL.  Higher ranking values are "on top" of lower ranking values.
+
+<img src="http://swmha.gina.alaska.edu/help/wfs_example.png" >
+
+If you would like to only see the high resolution datasets in the BDL inside ArcMap, try this:
+
+First, use the property dialogue of the WFS layer to access the filter dialog, and setup a filter like this:
+<img src="http://swmha.gina.alaska.edu/help/wfs_example_filter.png" >
+
+Next, use the property dialogue of the WFS layer to adjust the primary display field:
+<img src="http://swmha.gina.alaska.edu/help/wfs_example_adjusting_display.png" >
+
+Finally, when you do a identify with the WFS, you should only see items in the BDL, ordered by their ranking:
+<img src="http://swmha.gina.alaska.edu/help/wfs_example_filtered_result.png">

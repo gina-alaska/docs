@@ -1,0 +1,23 @@
+<!--- 193 -->
+<!--- user 679 --> 
+Hello,
+
+I've been hunting for polygon boundaries of the Alaska 250k quadrangles for an over an hour without luck. I see them in *use* all over the place, but not the indices themselves. Where can they be found? (shape, coverage, mapinfo - I don't care, heck, even dxf)
+
+thanks!
+
+-matt
+<!--- 197 -->
+<!--- user 2 --> 
+The indexs for the 250k quadrangles in shapefile format can be found here: http://dds.gina.alaska.edu/public/data/base_layers/esri-basemap/data_maps2/usa/ . 
+Here are the links to the files:
+* http://dds.gina.alaska.edu/public/data/base_layers/esri-basemap/data_maps2/usa/topoq100.shp.xml
+* http://dds.gina.alaska.edu/public/data/base_layers/esri-basemap/data_maps2/usa/topoq250.shx
+* http://dds.gina.alaska.edu/public/data/base_layers/esri-basemap/data_maps2/usa/topoq250.avl
+* http://dds.gina.alaska.edu/public/data/base_layers/esri-basemap/data_maps2/usa/topoq250.dbf
+* http://dds.gina.alaska.edu/public/data/base_layers/esri-basemap/data_maps2/usa/topoq250.prj
+* http://dds.gina.alaska.edu/public/data/base_layers/esri-basemap/data_maps2/usa/topoq250.sbn
+* http://dds.gina.alaska.edu/public/data/base_layers/esri-basemap/data_maps2/usa/topoq250.sbx
+* http://dds.gina.alaska.edu/public/data/base_layers/esri-basemap/data_maps2/usa/topoq250.shp
+
+Sorry for taking so long to reply!

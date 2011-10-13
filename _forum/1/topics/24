@@ -1,0 +1,5 @@
+<!--- 40 -->
+<!--- user 2 --> 
+We now have a "Web Feature Service(WFS)":http://en.wikipedia.org/wiki/Web_Feature_Service that allows access to information about the data available though SDMI's WMS.  The URL for the service is http://wfs.alaskamapped.org/inventory .   More information on how to use the service can be found in our WMS and WFS tutorial, available at: http://www.alaskamapped.org/public_docs/arcgis_wms_tutorial.pdf .
+
+Please post here or email us at wms@alaskamapped.org if you encounter problems or have questions.

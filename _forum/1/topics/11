@@ -1,0 +1,12 @@
+<!--- 19 -->
+<!--- user 2 --> 
+We added a pseudo color mosaic derived from the <A HREF='http://onearth.jpl.nasa.gov/' > Global Landsat  Mosaic </A> hosted by JPL.  It is a 15m product, and is stored in an Alaska Albers projection.
+
+Some examples:
+
+<IMG SRC='http://wms.alaskamapped.org/cgi-bin/bdl_extras.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=-1213682.75417906,720220.301063623,1296552.66239713,2489730.51274848&WIDTH=366&HEIGHT=258&LAYERS=pseudo_color_landsat&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+
+
+
+<IMG SRC='http://wms.alaskamapped.org/cgi-bin/bdl_extras.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=1105133.52449743,1084049.81660038,1129831.8558361,1105863.67128635&WIDTH=685&HEIGHT=604&LAYERS=pseudo_color_landsat&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >

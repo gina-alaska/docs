@@ -1,0 +1,122 @@
+<!--- 32 -->
+<!--- user 1 --> 
+This forum thread will be the place to announce recently ingested data sets.  
+
+If you have data that you would like to have added to to the SDMI project please contact us.
+<!--- 39 -->
+<!--- user 2 --> 
+We have been a bit slow to update the forum with information about new datasets lately.  Here is a update on data recently added to the SDMI system and available through the BDL wms service.
+
+In September 2007, we added 160 scenes of data provided by the "US Census":http://www.census.gov/ .  These datasets are in the public domain, and the original raw data can be downloaded at http://browse.alaskamapped.org. 
+
+In November 2007, we added 92 scenes from the USDA.
+
+In Decemeber 2007, we added a simulated natural color Landsat mosaic as the moderate resolution layer.  This dataset was provided by "TerraColor":http://www.terracolor.net .
+
+<IMG SRC='http://wms.alaskamapped.org/help/images/bdl_coverage.png' >
+<!--- 43 -->
+<!--- user 2 --> 
+We now have data covering the Afognak Island.  It was acquired in the summer of 2006, and has a resolution of 60cm.  The data is in the public domain, and can be downloaded (use the show available data button) <A HREF="http://browse.alaskamapped.org/map/index/57.58950321946173/-154.66552734375/58.78813194236438/-150.8148193359375?" > here. </A>
+
+Here are some previews of the data covering Afognak:
+<img src="http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=3098.09141600786,865107.333465678,157855.788249613,979898.479466527&WIDTH=515&HEIGHT=382&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+Onion Bay: 
+
+
+<img src="http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=40004.1445785879,893608.300082051,47707.8801518953,899322.527245165&WIDTH=515&HEIGHT=381&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE"  >
+
+
+Entrance to Onion Bay:
+
+<img src="http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=44969.9187693689,894418.923531088,45556.0292150515,894880.858034889&WIDTH=500&HEIGHT=400&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+<!--- 47 -->
+<!--- user 2 --> 
+We have a new dataset online that covers the greater Fairbanks area, including Nenana, North Pole, Two Rivers, and some outlaying areas north of Fairbanks. It was acquired the summer of 2007, and is in the public domain.  It can be downloaded "here":http://browse.alaskamapped.org/map/index/63.61698233975829/-150.0567626953125/66.09381676305271/-145.48095703125 using the show available data button.  This dataset was brought to us by the "Natural Resource Conservation Service":http://www.ak.nrcs.usda.gov project.
+
+Here are some previews:
+
+The greater Fairbanks area:
+
+<IMG src='http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=157431.969418818,1570763.30014486,361318.863679093,1744708.7623809&WIDTH=429&HEIGHT=366&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res,bdl_high_res&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+The "West Ridge Research Building":http://www.uaf.edu/campusmap/buildings/wrrb.html at the "University of Alaska Fairbanks":http://www.uaf.edu/, the home of GINA.
+<IMG src='http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=291025.269064193,1668806.62003325,291354.889663463,1669087.83481025&WIDTH=429&HEIGHT=365&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res,bdl_high_res&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+The Parks Highway bridge over the Tanana River at Nenana:
+
+<IMG src='http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=234046.769836184,1630952.00601974,234722.466417036,1631528.47443138&WIDTH=429&HEIGHT=365&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+<!--- 70 -->
+<!--- user 2 --> 
+We have added a dataset that covers the coast of western Alaska from Wales to Kivalina complements of the "National Park Service's":http://www.nps.gov/ 
+"Coastal Erosion of Alaska's Arctic Parks":http://instaar.colorado.edu/QGISL/ARCN/ project.  The data in the WMS was acquired in the summer of 2003 with a resolution of 0.6 meters.  There is also a large volume of historical data available ranging from the 1940s to the early 2000s which is available for download shortly through the "SDMI browse site.":http://browse.alaskamapped.org 
+
+Overview:
+<IMG src="http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=-708306.983612149,1802099.4278384,-332727.902004159,2038575.14588788&WIDTH=432&HEIGHT=272&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+A plane near the landing strip at Kivalina: 
+
+<IMG SRC="http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=-447559.782844339,2010055.19788603,-447253.030126969,2010248.33848585&WIDTH=432&HEIGHT=272&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+Wales:
+<IMG SRC="http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=-645706.629092213,1807566.91642831,-645228.182135635,1807868.16080838&WIDTH=432&HEIGHT=271&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+<!--- 84 -->
+<!--- user 2 --> 
+We have added a dataset complements of the "U.S. Geological Survey":http://www.usgs.gov that covers the greater Anchorage area.  This dataset was acquired in June of 2006 and has a resolution of 0.3 meters.  It is in the pubic domain, can can be downloaded via the "browse site":http://browse.alaskamapped.org .
+
+Overview:
+<IMG src="http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=201125.725403574,1230158.76400565,248632.809875222,1276287.01489105&WIDTH=457&HEIGHT=443&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+Float Planes on Lake Hood:
+
+<IMG src="http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=215812.744343377,1250958.81002547,215976.346188368,1251098.15694577&WIDTH=344&HEIGHT=293&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE"  >
+
+The "Alaska Rail Road's":http://www.akrr.com/ Anchorage Depot:
+<IMG src="http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=219787.877802992,1255664.8806257,219907.848240948,1255781.36907205&WIDTH=457&HEIGHT=443&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+<!--- 89 -->
+<!--- user 2 --> 
+We have added a dataset complements of  the "Alaska Department of Transportation and Public Facilities":http://www.dot.state.ak.us/ .  The dataset has over 250 images covering airports throughout rural Alaska.    The data is in the public domain, and can be downloaded via the "SDMI Browse site":http://browse.alaskamapped.org .   
+
+Examples:
+
+Downtown Circle: 
+
+<IMG src="http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=453236.732350891,1796919.71300714,453522.270301884,1797174.45135893&WIDTH=445&HEIGHT=396&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" > 
+
+Whitemountain:
+
+<IMG  src="http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=-447603.105705239,1667232.96764507,-447402.804941239,1667376.6723701&WIDTH=406&HEIGHT=291&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+Hughes:
+
+<IMG  src="http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=-11835.575019815,1787486.47901901,-11621.8785688119,1787639.79440892&WIDTH=407&HEIGHT=291&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+Eagle:
+
+<IMG   src="http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=604429.687534875,1705797.78990629,604744.937065082,1706023.96401641&WIDTH=406&HEIGHT=291&LAYERS=bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+<!--- 98 -->
+<!--- user 2 --> 
+We have added a wonderful "SPOT":http://www.satimagingcorp.com/gallery-spot5-images.html dataset covering the greater Fairbanks area, Delta Junction, Tok, and Nenana.
+
+<IMG SRC="http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:3338&BBOX=83330.168304027,1512475.1177737,464330.930305551,1773279.21081046&WIDTH=504&HEIGHT=344&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=,,,,,&EXCEPTIONS=application/vnd.ogc.se_XML&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+This dataset is complements of the "Alaska Department of Forestry":http://forestry.alaska.gov/ and the "Natural Resources Conservation Service":http://www.nrcs.usda.gov/ . It is downloadable from our "browse site":http://browse.alaskamapped.org in natural color and false IR presentations.
+
+Examples:
+
+*Birch Lake*
+<IMG SRC="http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:3338&BBOX=351500.454330373,1612604.97556835,356639.149757942,1616122.53493841&WIDTH=504&HEIGHT=344&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=,,,,,&EXCEPTIONS=application/vnd.ogc.se_XML&FORMAT=image/jpeg&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE" >
+
+*Tok "Loran":http://www.uscg.mil/d17/lorantok/ Station*
+<IMG SRC="http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.3.0&REQUEST=GetMap&CRS=EPSG:3338&BBOX=554135.163832816,1529450.88971529,559432.573732443,1533077.09292039&WIDTH=504&HEIGHT=344&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=,,,,,&EXCEPTIONS=application/vnd.ogc.se_XML&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE">
+<!--- 191 -->
+<!--- user 2 --> 
+We have recently ingested a number of scenes from the "Alaska Department of Commerce, Community, and Economic Development (DCCED)":http://www.commerce.state.ak.us/ covering a number of smaller communities in rural Alaska on behalf of DCCED's Coastal Villages project.
+
+Examples:
+
+*Hooper Bay*
+<IMG src="http://wms.alaskamapped.org/bdl/test,test.jpg?REQUEST=GetMap&SERVICE=WMS&STYLES=&VERSION=1.1.1&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=bdl_low_res,bdl_mid_res,bdl_high_res&FORMAT=image/jpeg&BBOX=-638249.290611143,1341601.9724946,-637434.447058732,1342302.11158159&SRS=EPSG:102006&WIDTH=320&HEIGHT=240&reaspect=false" >
+
+*Scammon Bay*
+<IMG src="http://wms.alaskamapped.org/bdl/test,test.jpg?REQUEST=GetMap&SERVICE=WMS&STYLES=&VERSION=1.1.1&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&LAYERS=bdl_low_res,bdl_mid_res,bdl_high_res&FORMAT=image/jpeg&BBOX=-605217.167624547,1371019.13408093,-604415.838324384,1371718.42362385&SRS=EPSG:102006&WIDTH=320&HEIGHT=240&reaspect=false" >

@@ -1,0 +1,7 @@
+<!--- 107 -->
+<!--- user 2 --> 
+For our ArcMap users we have added two new services that only support "JPEG images":http://en.wikipedia.org/wiki/JPEG, which should make the services a bit faster over slower connections.  The downside is that the data will be "lossy compressed":http://en.wikipedia.org/wiki/Lossy_compression and will have "compression artifacts":http://en.wikipedia.org/wiki/Compression_artifact.  We would love to hear if these JPEG only services are useful to folks.
+
+The URLs to the services are "http://wms.alaskamapped.org/bdl/jpeg" for the Best Data Available service and "http://wms.alaskamapped.org/extras/jpeg" for the Extras service.
+
+These special services are meant to only be used by WMS clients that do not allow the user to select which image format that will be used to fetch data from the WMS, like ArcMap.  When a WMS client talks to a WMS, it specifies what image format should be used to transmit data.  Most clients default to using "PNG":http://en.wikipedia.org/wiki/Portable_Network_Graphics images, and some clients like ArcMap, don't allow the user to change this.  Clients that allow the user to select the image format should use the main services and just configure their client to retrieve JPEG images.   There will be a trade off between quality and speed - while using JPEG images to transmit the data should be faster, the compression artifacts could make the data unusable for some uses, so your mileage may very.

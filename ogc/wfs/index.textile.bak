@@ -1,0 +1,10 @@
+---
+layout: default
+title: Web Feature Services
+---
+h1. Web Feature Services
+
+GINA is publishes a "Web Feature Service (WFS)":http://en.wikipedia.org/wiki/Web_Feature_Service that provides ssome details about the SDMI data holdings.  
+
+For more details, please see:
+* "SDMI Inventory WFS":inventory.html

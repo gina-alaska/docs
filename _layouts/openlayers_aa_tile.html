@@ -19,8 +19,11 @@
         function init(){
             var layerExtent = new OpenLayers.Bounds(-3500000.0, -3500000.0, 3500000.0,3500000.0 );
             map = new OpenLayers.Map( 'map', {'restrictedExtent': layerExtent} );
+	    bg = new OpenLayers.Layer.XYZ( "{{page.title}}",
+                    "http://tiles.proto.gina.alaska.edu/tilesrv/bdl_aa/tile/${x}/${y}/${z}" );
+	    map.addLayer(bg);
 	    layer = new OpenLayers.Layer.XYZ( "{{page.title}}",
-                    "{{page.tile_url}}tile/${x}/${y}/${z}" );
+                    "{{page.tile_url}}tile/${x}/${y}/${z}", {isBaseLayer: false, visibility: true} );
 	    map.addLayer(layer);
 	    map.setCenter(new OpenLayers.LonLat(0,0), 2,true,true);
         }
@@ -61,6 +64,13 @@
 				<li><a href="/ndvi/how_to.html">Using in ArcMap</a></li>
 				<li><a href="/ndvi/metrics/">Metrics</a></li>
 			</ul>
+                        <h1>OGC</h1>
+                        <ul>
+                                <li><a href="/ogc/">Overview</a></li>
+                                <li><a href="/ogc/wcs">WCS</a></li>
+                                <li><a href="/ogc/wfs">WFS</a></li>
+                                <li><a href="/ogc/wms">WMS</a></li>
+                        </ul>
 			<h1>Web Mapping</h1>
                         <ul>
                                 <li><a href="/tiles/merc.html">Mercator</a></li>

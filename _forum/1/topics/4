@@ -1,0 +1,48 @@
+<!--- 4 -->
+<!--- user 2 --> 
+Here are some basic instructions for adding the Statewide Mapping WMS services to an ArcMap project.  If you have used WMS servers with Arc products before, these instructions will be old news and possibly a insult to your skills. 
+
+Some general background about these WMS services is available in "this posting":http://forum.gina.alaska.edu/forums/1/topics/1 . Your feedback via this forum or by email to wms@alaskamapped.org is much appreciated. 
+
+*Getting started.*
+
+First start ArcMap:
+<Initial ArcMap image>
+
+Next, click on the "Layers" item on the left hand side, and select "Add Data".
+
+<IMG SRC="http://wms.alaskamapped.org/help/arcmap_help/arcmap_%231.png" >
+
+Change the “Look in:” pull down to “GIS Servers”, click  “Add WMS Server” and click the “Add” button.
+
+<IMG SRC="http://wms.alaskamapped.org/help/arcmap_help/arcmap_%232.png" >
+
+In the *“Add WMS Server”* dialog, enter the URL of the WMS server into the “URL:” field and click the “Ok” button.  For the natural color service, enter *"http://wms.alaskamapped.org/cgi-bin/bdl.cgi?"* .  For the Landsat panchromatic mosaic, enter *"http://wms.alaskamapped.org/cgi-bin/bdl_extras.cgi?"* .  In this example we use the natural color service.
+
+<IMG SRC="http://wms.alaskamapped.org/help/arcmap_help/arcmap_%233.png" >
+
+You should now be back in the “Add Data” dialog.  Select the “BDL WMS on wms.alaskamapped.org” item, and click the “Add” button.
+
+<IMG SRC="http://wms.alaskamapped.org/help/arcmap_help/arcmap_%234.png" >
+
+You will now be prompted to select a layer to add – select the “BDL WMS” item, and  click the “Add” button.
+
+<IMG SRC="http://wms.alaskamapped.org/help/arcmap_help/arcmap_%235.png" >
+
+You should now be presented with a geographic view of the world.  To zoom in on Alaska, use the zoom tool to zoom in the upper left corner.  You now have the WMS service in ArcMap, and should be good to go.
+
+<IMG SRC="http://wms.alaskamapped.org/help/arcmap_help/arcmap_%236.png" >
+
+
+*Other things you might want to know..*
+
+Most users will find the initial geographic projection to be less than useful.  You can *change the projection* by selecting the “BDL WMS” in the “Layers” sidebar, right clicking, and selecting “Change Coordinate System”.
+
+<IMG SRC="http://wms.alaskamapped.org/help/arcmap_help/arcmap_%237.png" >
+
+You can change the projection to any of the projections listed.  In this example, we use “Alaska_Albers_Equal_Area_Conic”.
+
+<IMG SRC="http://wms.alaskamapped.org/help/arcmap_help/arcmap_%238.png" >
+<!--- 38 -->
+<!--- user 2 --> 
+Pete Hickman has created a much improved tutorial for ArcMap which also includes instructions on using the WFS services.  The tutorial can be found at http://www.alaskamapped.org/2007/11/7/wms-training and the PDF at http://www.alaskamapped.org/public_docs/arcgis_wms_tutorial.pdf .

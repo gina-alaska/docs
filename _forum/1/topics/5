@@ -1,0 +1,45 @@
+<!--- 5 -->
+<!--- user 2 --> 
+There are several known problems with the WMS service.
+
+<hr/>
+
+* *Dateline issues* <br/>
+Some views show projection issues around the dateline.  For example:
+
+<IMG SRC='http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=-2311694.18223323,33042.7142252737,1346953.27157608,3180986.51887585&WIDTH=437&HEIGHT=376&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+<hr/>
+*_This is now FIXED for most common cases- see posts below_*
+
+* *Tile Boundaries* <br/> 
+Some requests show tile boundaries. For example:
+
+<IMG SRC='http://wms.alaskamapped.org//cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:4326&BBOX=-150.031202546704,61.1363112670419,-149.899836380253,61.2435305661341&WIDTH=729&HEIGHT=595&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+
+*_This is now FIXED - see posts below_*
+<!--- 10 -->
+<!--- user 4 --> 
+We see the same problem here as well.  This seems to happen with gridded/raster datasets where the longitude is mapped from -180 to +180.  If the image is mapped from 0 to 360, then the dateline problem is moved to 0 E/W.
+
+The datasets that seem immune to the dateline problem are gridded datasets that use the GeoTransform metadata to describe the dataset for rendering as a raster through GDAL. 
+
+"wiki":https://db.aoos.org/wiki/index.php/AOOS_OPeNDAP
+
+A gridded dataset rendered through GDAL/OPeNDAP where the longitude is mapped from -180 to +180
+
+"Original":http://ak.aoos.org/~gaffigan/images2/gfs_tmpsfc_20061211_00z_msmap_orig.png
+
+Remapped from 0 to 360
+
+"Remapped":http://ak.aoos.org/~gaffigan/images2/gfs_tmpsfc_20061211_00z_msmap.png
+
+Mapserver also does some strange clipping around the pole as well.
+
+"Polar":http://ak.aoos.org/data/testing/interoperability/mapserver/polar.png
+<!--- 11 -->
+<!--- user 2 --> 
+In regards to the dateline issues, they are *mostly* fixed now.   There are still occasional artifacts, which mainly appear as a gray line right on the dateline and/or a slightly blocky image.    If anyone sees additional problems or if these artifacts make the service unusable please let us know.   We have a complete fix for the dateline issues, but they make the service very, very slow.
+<!--- 12 -->
+<!--- user 2 --> 
+We have also fixed the "Tile Boundaries" problem.

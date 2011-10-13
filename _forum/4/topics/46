@@ -1,0 +1,18 @@
+<!--- 60 -->
+<!--- user 49 --> 
+We are working on creating a ArcGIS Layer file utilizing the BDL WMS feed and noticed that the 15 - 30m Landsat Alaska Overview turns on after the high resolution coverages. Can you set the scale dependency's so that the Landsat imagery is on before the high resolution images?  Thanks!
+<!--- 61 -->
+<!--- user 49 --> 
+Never mind, the scales are fine, it appears ArcMap is not pulling in the WMS feeds efficiently for the Landsat layer resulting in sporadic display.
+
+AICC ArcIMS site has no issues must be the overbearing overhead of ArcGIS....
+<!--- 63 -->
+<!--- user 2 --> 
+We can adjust the scales at which things turn on if need, so let us know if you think they should be different.
+
+There seems to be three thoughts on when the high res data (or more when layers turn on in general) turn on:
+# The high res data should turn on as soon as possible (very small scales), so the users know that high res data is available
+# The high res data should turn on the scale is such that the data is "useful", ie you can identify features.
+# All layers should be visible at all times, and its the user's responsibility to turn on only the layers that are needed.
+
+Its possible that we should setup 3 different services with each assumption - please let us know if this would be useful.

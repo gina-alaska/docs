@@ -1,0 +1,12 @@
+<!--- 8 -->
+<!--- user 2 --> 
+We just added more high resolution imagery of the area around Fairbanks.  The update consists of a number of Quickbird images complements of Digital Globe and the Fairbanks North Star Borough. 
+
+Some examples:
+
+<IMG SRC='http://wms.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=289539.309172114,1660869.84340092,301122.897847408,1670836.50093389&WIDTH=437&HEIGHT=376&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE' >
+<BR>
+<IMG SRC='http://www.alaskamapped.org/cgi-bin/bdl.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=290689.619861363,1668361.03576316,291845.851340493,1669355.87108616&WIDTH=437&HEIGHT=376&LAYERS=bdl_low_full,bdl_low_overview,bdl_mid_res_full,bdl_high_res_full,bdl_high_res_overview&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE'  >
+<!--- 9 -->
+<!--- user 4 --> 
+Neat! Anything to fill in the gaps.  We would be interested in coastal and nearshore items :)

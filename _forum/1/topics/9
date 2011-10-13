@@ -1,0 +1,25 @@
+<!--- 16 -->
+<!--- user 7 --> 
+Greetings,
+
+I started testing the WMS with ArcGIS 9.2 Desktop as a client on my DSL line from Homer in early February.  It's a little slow, but overall I think it's easy to use and is an excellent resource for the state.  Reprojecting to UTM Zone 4 for work in Barrow looks great.  
+
+I'd like to try pulling the WMS into an ArcMap Service running under ArcServer 9.2.  Would you be willing to add a new EPSG code to support Lambert Azimuthal Equal Area for Alaska (code 3572)?  
+
+Thanks,
+Allison Gaylord
+Owner / GIS Specialist
+Nuna Technologies
+<!--- 17 -->
+<!--- user 2 --> 
+If you give me the projections details, I can add it.  
+
+In regards to the speed, it appears that the most important factor is the format of the images that are requested from the service .   If it is possible to switch your client to using JPEGs instead of PNGs the service should be much faster, as they are much smaller and thus take less time to transmit.  JPEGs do have the down side of not supporting transparency, but if transparency is not required, using them should be make the service load faster.
+
+For example, we had some requests for some 1148x1015 PNGs earlier today that are >3Megs as PNGs, but < 300K as JPEGs.
+
+"as PNG ( 2986.77 KB) ":http://wms.alaskamapped.org/cgi-bin/bdl.cgi?version=1.1.1&request=getmap&srs=epsg:26904&bbox=583721.373873293,7908530.02333925,586069.236583726,7910605.87756494&width=1148&height=1015&layers=bdl_high_res_full&styles=&exceptions=application/vnd.ogc.se_xml&format=image/png&bgcolor=0xffffff&transparent=true
+
+"as JPEG ( 243.02KB) ":http://wms.alaskamapped.org/cgi-bin/bdl.cgi?version=1.1.1&request=getmap&srs=epsg:26904&bbox=583721.373873293,7908530.02333925,586069.236583726,7910605.87756494&width=1148&height=1015&layers=bdl_high_res_full&styles=&exceptions=application/vnd.ogc.se_xml&format=image/jpeg&bgcolor=0xffffff&transparent=true
+
+Some clients do not allow the user to change the image format, so we will probably make a JPEG only service soon.

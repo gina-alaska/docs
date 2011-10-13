@@ -1,0 +1,65 @@
+<!--- 91 -->
+<!--- user 2 --> 
+We have a basic WCS service up with the section of the "National Elevation Database (NED)":http://ned.usgs.gov/ that covers the state of Alaska.  It is available in 2 arc second and 1/3 arc second forms, with the 1/3 arc second data covering only the north slope.  
+
+We would appreciate any feedback folks have about using it.
+
+The url for the service is *"http://wms.alaskamapped.org/cgi-bin/wcs_test.cgi?"*
+
+If you have any issues with the service, questions, or suggestions, please email us at wms@alaskamapped.org or post in this forum.  Feedback is very important - we can not do anything about problems we do not know about. 
+
+Here are some basic instructions on using our test WCS with ESRI's ArcMap 9.3.
+
+1: Fire up Arcmap and set the data frame to use a useful projection like Alaska Albers, NAD83.  The data is stored in Alaska Albers, NAD 83.
+2: Add the WCS service by right clicking on "Layers", selecting "Add WCS Server", and entering "http://wms.alaskamapped.org/cgi-bin/wcs_test.cgi?" in the "URL" box.
+
+<img src="http://swmha.gina.alaska.edu/wcs/wcs_%231.png" >
+
+3: Next select the WCS service in the "Add Data" dialog.
+4: Next select which dataset you would like to add: the "NED_2_ARC_SEC" or the "NED_ONE_THIRD_ARC_SEC" datasets.
+
+<img src="http://swmha.gina.alaska.edu/wcs/wcs_%232.png" >
+
+5: The data you selected should now appear in ArcMap.  It is probibly all black or blank at this point.  Don't panic - ArcMap defaults to strange minimum and maximum values.  Right click on the dataset in the Layers sidebar, and set the "Min" and "Max" values to something reasonable.
+
+<img src="http://swmha.gina.alaska.edu/wcs/wcs_%233.png" >
+
+<img src="http://swmha.gina.alaska.edu/wcs/wcs_%234.png" >
+<!--- 92 -->
+<!--- user 1 --> 
+We have layer files available that make it much easier to add to your ArcMap.  "WCS layer files":http://www.alaskamapped.org/public_docs/layers/
+
+Let us know if they do not work for you or any other issues you see.  So far the feed back (Parker Martyn) has been postive for the WCS services.  Feedback via forum or email is very welcome.
+
+-dayne
+<!--- 105 -->
+<!--- user 2 --> 
+We now have a number of additional datasets in the WCS.
+
+* The "SRTM version 2":http://www2.jpl.nasa.gov/srtm/
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/srtm_v2.jpg">
+* The "ASTER DEM":http://asterweb.jpl.nasa.gov/content/03_data/01_Data_Products/release_DEM_relative.htm covering alaska
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/aster.jpg">
+* A small dataset covering Katalla from "NCALM":http://www.ncalm.ufl.edu/
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/katalla.jpg">
+* the "1/3 arc second NED":http://seamless.usgs.gov/products/3arc.php covering the North Slope of Alaska
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/NED_1_3_arcsec.jpg">
+* The "2 arc second NED":http://seamless.usgs.gov/products/1arc.php covering most of Alaska.
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/NED_2_arcsec.jpg">
+* A number of small 4m to 1m  resolution DEMs covering the Kenai area
+** Area A
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/kenai_area_a.jpg">
+** Area B
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/kenai_area_b.jpg">
+** Area C
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/kenai_area_c.jpg">
+** Area D
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/kenai_area_d.jpg">
+** Area E
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/kenai_area_e.jpg">
+** Area H
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/kenai_area_h.jpg">
+* A small 3 foot resolution DEM covering part of the Eagle River area.
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/eagle_river.jpg">
+* A 20 meter resolution DEM derived from SPOT data, which covers the Chugach State Forest area.
+<IMG SRC="http://swmha.gina.alaska.edu/wcs/spotdem_chugach_hrs_dem.jpg">

@@ -1,0 +1,8 @@
+<!--- 18 -->
+<!--- user 2 --> 
+We have added a shaded relief dataset derived in from the National Elevation Dataset (NED).  It is in the  BDL Extras service (http://wms.alaskamapped.org/cgi-bin/bdl_extras.cgi?).
+
+Some examples:
+<IMG SRC='http://wms.alaskamapped.org/cgi-bin/bdl_extras.cgi?VERSION=1.1.1&REQUEST=GetMap&SRS=EPSG:102006&BBOX=-1889395.9602944,-56425.2740708271,1801078.06034323,2810789.15734764&WIDTH=520&HEIGHT=404&LAYERS=shaded_relief_ned&STYLES=&EXCEPTIONS=application/vnd.ogc.se_xml&FORMAT=image/png&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE'
+
+>

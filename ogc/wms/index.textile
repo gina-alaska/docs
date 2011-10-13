@@ -1,0 +1,15 @@
+---
+layout: default
+title: "OGC:WMS"
+---
+h1. Web Mapping Services
+
+GINA publishes a number of raster datasets via the "Open Geospatial Consortium (OGC)":http://www.opengeospatial.org/ "Web Mapping Service(WMS)":http://en.wikipedia.org/wiki/Web_Map_Service . These WMS are usable in a wide array of desktop mapping tools such as ArcMap or QGIS.
+
+For a pictural guide to the data avaiable via WMS, please see the "SDMI gallery page.":http://www.alaskamapped.org/data/gallery 
+
+Here is a list of varous services available:
+* "Best Data Available(BDL) WMS":bdl.html
+* "Extras":extras.html
+* "FAA Charts":faa.html
+* "NOAA Charts":noaa.html

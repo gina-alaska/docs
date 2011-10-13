@@ -1,0 +1,38 @@
+<!--- 64 -->
+<!--- user 58 --> 
+There seems to be a limit on what you can display in layout view in ArcMap depending on your page size.  When using an ANSI E size page size, I can display the quads at the 63k scale, but any scale smaller than that, no data displays.  I have everything turned off except the DRGs.  I am aware of the scale dependencies of the layers and the scales I am using are well within those bounds.  Everything displays fine at all common scales when using ANSI D size or smaller.
+<!--- 65 -->
+<!--- user 2 --> 
+Tom,
+
+It is hard to say what exactly is going on - if you could replicate the problem and email me your ip (you can get your ip by running "ipconfig" in a command window), I can look at what is being requested by ArcMap.  My email address is *jay(AT)alaska.edu*.
+
+Most of problems related to large format printing or viewing can be traced to a couple of problems:
+# There is a maximum require size, set to 15k by 15k pixels.  It is impossible for a user to tell the size of a request that is being made. 
+# There is a timeout built into arcmap that is pretty short, and appears to vary based on your version of ArcMap.  This is probably the problem you are encountering.
+# Scale limits inside ArcMap . Arcmap in the "data view" just requests a image to fill the screen.  In the "layout view", it requests a full image at the size needed for printing/viewing with the paper size and resolution you have set to print to.  So in the data view you will be seeing things at a much different scale than the layout view. 
+
+We realize these issues are major problems, but we really don't know of ways around them as the mainly involve how ArcMap functions as a client.  
+
+The longer term fix we have planned is to allow users to make extracts via the browse site (http://browse.alaskamapped.org) and download the extracts to use locally. 
+
+If it would help, we can make a jpeg2000 mosaic of the each DRG set and make that available to the public.
+
+I am really sorry we can't offer a better solution for our users who are trying to print to large formats.
+<!--- 66 -->
+<!--- user 58 --> 
+Jay-
+
+Hmm, the extras.lyr seems to be diferent now...perhaps that's why it wasn't working earlier today.  Just so you know, I'm pointing all our users to this wms layer to access topos to make maps.  It the one stop shop for any topo they need.  It really makes their life easier.
+
+Yeah, it's definitely an odd thing that's occurring.  Mosaics would be great to have locally, as long as the compression ratio doesn't degrade the quality too much.  I'd set it up just as you have the current WMS layer file configured, with the scaling for each DRG set.  Let me know if you get time to create those.  If that isn't possible, we can try to track down the ArcMap error.
+
+Tom
+<!--- 69 -->
+<!--- user 2 --> 
+Tom,
+We added a "DRG_WITHOUT_SCALE_LIMITS" layer group with the DRGs that has much broader scale limits.  Perhaps that is the change you noticed.
+
+I created a mosaic of the 1:250k DRGs as a Jpeg2000 file.  It is compressed in a loss less manner so there should be no compression artifacts.   The file can be found at "ftp://dds.gina.alaska.edu/data/base_layers/usgs-drg":ftp://dds.gina.alaska.edu/data/base_layers/usgs-drg .  If you decide to use it, please give us some feedback as to how well it works for you.
+
+Jay
