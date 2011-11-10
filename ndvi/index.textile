@@ -11,3 +11,4 @@ For more details, please see:
 * "AVHRR NDVI Datasets":avhrr.html
 * "Colorized NDVI Datasets":wms.html
 * "How to use the NDVI services in ArcMap":how_to.html
+* "MODIS products and algorithms poster":/ndvi/files/UAF-GINA-NPS-2011-NDVI_metrics_howto_poster.pdf
