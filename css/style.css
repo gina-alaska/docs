@@ -54,7 +54,7 @@ blockquote{
 #wrap {
        margin-left: auto;
        margin-right: auto;
-       width: 730px;
+       width: 930px;
 }
 
 
@@ -65,7 +65,7 @@ blockquote{
 	width: 100%;
 	height: 88px;
 	color: #fff;
-	background: #000 url(../img/top_bg.gif);
+	background: #000 url(../img/banner-nomenu.png) no-repeat;
 	overflow:hidden;
 }
 

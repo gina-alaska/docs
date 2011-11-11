@@ -20,7 +20,7 @@ a:hover {
 	color: #06F;
 }
 body {
-	background: #EEE url(/img/bg.gif);
+	background: white;
 	color: #444;
 	font: normal 1.0em "Lucida Sans Unicode",sans-serif;
 	margin: 0;
@@ -67,13 +67,15 @@ h1,h2,h3 {
 
 /* structure */
 .container {
-	background: url(/img/bgcontainer.gif) repeat-y;
+	background: white;
 	margin: 0 auto;
 	padding-bottom: 6px;
-	width: 767px;
+	width: 920px;
+        text-align: center;
 }
 .header {
-	background: url(/img/header.gif) repeat-x;
+	background: url(/img/banner-nomenu.png) no-repeat;
+        width: 920px;
 }
 
 /* title */
@@ -154,7 +156,8 @@ h1,h2,h3 {
 /* content */
 .content {
 	float: right;
-	width: 520px;
+        width: 660px;
+        text-align: left;
 }
 .content .item {
 	padding: 6px 12px;
@@ -248,7 +251,7 @@ form {
 	margin: 0 auto;
 	text-align: center;
 	padding: 6px;
-	width: 720px;
+	width: 920px;
 }
 .footer a {
 	color: #36C;
