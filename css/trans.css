@@ -8,26 +8,11 @@ URL: http://templates.arcsin.se
 Feel free to use and modify but please provide credits.
 #############################################################*/
 
-/* standard elements */
-* {
-	margin: 0;
-	padding: 0;
-}
-a {
-	color: #36C;
-}
-a:hover {
-	color: #06F;
-}
 body {
 	background: white;
-	color: #444;
-	font: normal 1.0em "Lucida Sans Unicode",sans-serif;
-	margin: 0;
 }
 input {
 	color: #555;
-	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
 }
 p,cite,code,ul {
 	font-size: 1.0em;
@@ -43,7 +28,6 @@ code {
 	border-left: 6px solid #39F;
 	color: #555;
 	display: block;
-	font: normal 1.1em "Lucida Sans Unicode",serif;
 	margin-bottom: 12px;
 	padding: 8px 10px;
 	white-space: pre;
@@ -52,7 +36,6 @@ cite {
 	background: url(/img/quote.gif) no-repeat;
 	color: #666;
 	display: block;
-	font: normal 1.3em "Lucida Sans Unicode",serif;
 	padding-left: 28px;
 }
 h1,h2,h3 {
@@ -71,7 +54,7 @@ h1,h2,h3 {
 	margin: 0 auto;
 	padding-bottom: 6px;
 	width: 920px;
-        text-align: center;
+        z-index: -20;
 }
 .header {
 	background: url(/img/banner-nomenu.png) no-repeat;
@@ -81,10 +64,8 @@ h1,h2,h3 {
 /* title */
 .title h1 {
 	color: #FFF;
-	/*font: normal 3em Verdana,sans-serif; */
         font-size: 1.4em;
         font-weight: bold;
-/*	height: 150px; */
 	line-height: 250px;
 	margin-bottom: -90px;
 	text-align: center;
@@ -192,43 +173,10 @@ h1,h2,h3 {
 .content ol ul {
         list-style: url(/img/li.gif);
         margin-left: 18px;
-        /*font-size: 0.9em;*/
 	margin-top: 0;
   	margin-bottom: 0;
 	padding: 0px 0px;
 }
-
-
-/*
-.content li {
-	list-style: url(/img/li.gif);
-	margin-left: 18px;
-	font-size: 0.9em;
-        margin-top: 0;
-        margin-bottom: 0;
-	color: #009;
-	 padding: 0px 0px;
-
-
-}
-
-
-
-.content li li {
-        list-style: url(/img/li.gif);
-        margin-left: 18px;
-	font-size: 0.9em;
-       	margin-top: 0;
-       	margin-bottom: 0;
-	color: #090;
-	padding: 0px 0px;
-
-}
-
-*/
-
-
-
 
 /* search form */
 form {
@@ -246,23 +194,23 @@ form {
 }
 
 /* footer */
-.footer {
-        overflow: visible;
-        padding-left: 15px;
-        padding-top: 16px;
-        margin-bottom: 10px;
-        img { position: absolute; bottom: 9px; z-index: -10; }
-	color: #666;
-	font-size: 1.1em;
-	margin: 0 auto;
-	text-align: center;
-	width: 920px;
-}
-.footer a {
-	color: #36C;
-	text-decoration: none;
-}
-.footer a:hover {
-	color: #06F;
-	text-decoration: underline;
+#footer a:link {text-decoration: none;
+          color: white; }
+
+#footer a:visited { text-decoration: none;
+          color: white; }
+
+#footer a:hover { text-decoration: underline;
+          color: white; }
+
+#footer {
+    background: url(/img/footer-nomenu.png) no-repeat;
+    height: 140px;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 122px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    clear: both;
 }

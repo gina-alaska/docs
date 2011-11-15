@@ -9,7 +9,6 @@ body {
 	margin: 0px;
 	background: url(../img/top_bg.gif);
 	background-repeat: repeat-x;
-	font-family: Verdana, Arial, sans-serif;
         font-size: .6em;
 }
 
@@ -66,7 +65,7 @@ blockquote{
 	height: 88px;
 	color: #fff;
 	background: #000 url(../img/banner-nomenu.png) no-repeat;
-	overflow:hidden;
+/*	overflow:hidden; */
 }
 
 #top h2 {
