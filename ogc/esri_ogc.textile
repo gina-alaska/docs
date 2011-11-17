@@ -1,0 +1,7 @@
+---
+layout: default
+title: ESRI OGC
+---
+h1. ESRI OGC notes
+
+ESRI has words.  These words need "clean_esri_ogc.bat":scripts/clean_esri_ogc.bat
