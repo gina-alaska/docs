@@ -7,6 +7,7 @@ echo #     Interoperability: INTEROP\*                                     #
 echo # Note: if you customized ESRI land TEMP dir this wont' do much       #
 echo #######################################################################
 echo .
+echo - %%TEMP%% is %TEMP%
 echo .
 echo #######################################################################
 echo this will not work well if your ArcGIS tools are running right now
