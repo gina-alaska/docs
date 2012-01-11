@@ -13,6 +13,7 @@ Here is a list of various services available:
 * "Extras":extras.html
 * "FAA Charts":faa.html
 * "NOAA Charts":noaa.html
+* "Realtime MODIS":modis.html
 
 We also have some documentation on how to use our WMS services.
 

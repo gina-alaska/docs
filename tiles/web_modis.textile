@@ -1,0 +1,66 @@
+---
+layout: default
+title: "Tiles: MODIS Realtime"
+---
+h1. Tiles for Web Mercator - MODIS Realtime
+
+This service provides access to MODIS data received at GINA in a natural color presentation.  The data covers main land Alaska. 
+
+Information about the tiles available can be obtained by using a JSON callback function.
+
+The URL for the JSON callback is at "http://realtime.gina.alaska.edu/tiles/modis".  This URL expects the parameter "callback" to be set to the function name to be generated.
+
+For example, "http://realtime.gina.alaska.edu/tiles/modis?callback=function_name" 
+would generate a JSON object like:
+<code>
+	function_name({"scenes":[ ... tiles ... ]});
+</code>
+
+Each tile set has an entry in "scenes", and includes the following fields:
+* platform
+** The platform, normally TERRA 1 or AQUA 1
+* size 
+** The size of the source dataset
+* info
+** A short blurb on the tileset in question
+* source_url
+** Unused.
+* kml_url 
+** Unused.
+* jpeg_url
+** The url to a JPG version of the data contained in the tileset, at 250m resolution.
+* tile_base_url
+** The url to the tile service.  The service expects the tiles X,Y, and Z location to be appended in the form X/Y/Z to this url.
+* thumbnail_url
+** The url to a small thumbnail sized version of the data contained in the tileset. 
+* date
+** The date the data was acquired, in UTC.
+* id
+** GINA's scene id of the source data.  
+
+For example, a single entry in "scenes" would look like this:
+<code>
+{
+	"platform":"TERRA 1",
+	"size":60312898,
+	"title":"MODIS:20120110.1927.t1.geo",
+	"info":"This MODIS image received from the spacecraft TERRA 1 at January 10, 2012 10:27 AM time.",
+	"date":"Tue Jan 10 19:27:00 UTC 2012",
+	"source_url":null,
+	"kml_url":null,
+	"id":"20120110.1927.t1.geo",
+	"jpeg_url":"http:\/\/dds.gina.alaska.edu\/public\/fire\/imagery_full_color\/2012\/20120110.1927.t1.250m.jpg",
+	"tile_base_url":"http:\/\/realtime.gina.alaska.edu\/realtime_tiles\/20120110.1927.t1.geo\/tile\/",
+	"thumbnail_url":"http:\/\/dds.gina.alaska.edu\/public\/fire\/imagery_full_color\/2012\/20120110.1927.t1.thumb.jpg"
+}
+</code>
+
+For this example, the tile at x=9, y=18, z=6 would be accessed at:
+<code>
+http://realtime.gina.alaska.edu/realtime_tiles/20120110.1927.t1.geo/tile/9/18/6
+</code>
+
+<IMG SRC='http://realtime.gina.alaska.edu/realtime_tiles/20120110.1927.t1.geo/tile/9/18/6' >
+
+
+
