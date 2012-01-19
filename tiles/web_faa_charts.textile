@@ -2,8 +2,8 @@
 layout: openlayers_web_faa
 title: "Tiles: FAA Charts"
 rest_url: "sdjlfkjds"
-base_url: "http://tiles.proto.gina.alaska.edu/tilesrv/"
-base_rest_url: "http://rest.proto.gina.alaska.edu/ArcGIS/rest/services/"
+base_url: "http://tiles.gina.alaska.edu/tilesrv/"
+base_rest_url: "http://rest.tiles.gina.alaska.edu/ArcGIS/rest/services/"
 ---
 h1. ESRI Rest Data for Web Mercator - FAA Charts
 

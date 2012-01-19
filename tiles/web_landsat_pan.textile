@@ -1,8 +1,8 @@
 ---
 layout: openlayers_tile
 title: "Tiles: Landsat Pan"
-tile_url: "http://tiles.proto.gina.alaska.edu/tilesrv/landsat_pan/"
-rest_url: "http://rest.proto.gina.alaska.edu/rest/ArcGIS/rest/services/landsat_pan/MapServer"
+tile_url: "http://tiles.gina.alaska.edu/tilesrv/landsat_pan/"
+rest_url: "http://rest.tiles.gina.alaska.edu/rest/ArcGIS/rest/services/landsat_pan/MapServer"
 ---
 h1. Tiles - Landsat Pan
 

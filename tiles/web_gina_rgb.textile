@@ -1,0 +1,9 @@
+---
+layout: openlayers_tile
+title: "Tiles: GINA Topo/Bathymetry"
+tile_url: "http://tiles.gina.alaska.edu/tilesrv/gina_bathymetry_rgb_google/"
+rest_url: "None."
+---
+h1. Tiles for Web Mercator - GINA Global - Integrated - Topo/Bathymetry Grid
+
+This service provides access to the "GINA Global - Integrated - Topo/Bathymetry Grid":http://www.gina.alaska.edu/data/global-gridded/ .

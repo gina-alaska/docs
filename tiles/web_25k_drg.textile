@@ -1,8 +1,8 @@
 ---
 layout: openlayers_tile
 title: "ESRI Rest: USGS 25k"
-tile_url: "http://tiles.proto.gina.alaska.edu/tilesrv/25k_drg_shaded/"
-rest_url: "http://rest.proto.gina.alaska.edu/rest/ArcGIS/rest/services/25k_drg_shaded/MapServer"
+tile_url: "http://tiles.gina.alaska.edu/tilesrv/25k_drg_shaded/"
+rest_url: "http://rest.tiles.gina.alaska.edu/rest/ArcGIS/rest/services/25k_drg_shaded/MapServer"
 ---
 h1. Tiles for Web Mercator - USGS 25k Topos
 

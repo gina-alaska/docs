@@ -19,6 +19,7 @@ Here is a list of those services.
 ** "Landsat Pan":web_landsat_pan.html
 ** "TerraColor":web_terracolor.html
 ** "Shaded Relief NED":web_ned.html
+** "GINA Topo/Bathymetry":web_gina_rgb.html or "Black and White":web_gina_bw.html
 * "NOAA Nautical Charts":web_noaa_charts.html
 * "FAA Charts":web_faa_charts.html
 
