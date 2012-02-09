@@ -13,20 +13,18 @@
 <title>Docs:  {{ page.title }}</title>
 
 <script src="/js/OpenLayers.js"> </script>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
         var map, layer;
         function init(){
             var layerExtent = new OpenLayers.Bounds(-20037508.3427892,-20037508.3427892,20037508.3427892,20037508.3427892)
             map = new OpenLayers.Map( 'map', {'restrictedExtent': layerExtent, allOverlays: true} );
-	    //var gphy = new OpenLayers.Layer.Google( "Google Physical", {type: google.maps.MapTypeId.ROAD});
-	    var google = new OpenLayers.Layer.Google( "Google");
+	    var bg = new OpenLayers.Layer.XYZ( "GINA Bathymetry", 
+		"http://tiles.gina.alaska.edu/tilesrv/gina_bathymetry_rgb_google/tile/${x}/${y}/${z}", 
+		{sphericalMercator: true} );
 	    layer = new OpenLayers.Layer.XYZ( "",
                     "{{page.tile_url}}tile/${x}/${y}/${z}",
                     {sphericalMercator: true} );
-	    map.addLayers([layer, google]);
-            //map.addLayer(layer);
-            //map.zoomToExtent(map.restrictedExtent);
+	    map.addLayers([bg,layer]);
 	    map.setCenter(new OpenLayers.LonLat(-16443669.90,9565828.80), 4,true,true);
         }
 </script>
