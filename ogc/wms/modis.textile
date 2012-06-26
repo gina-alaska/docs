@@ -7,12 +7,14 @@ title: "WMS:Realtime Modis"
 
 We are providing a WMS service with access to a subset of our stockpile of near realtime "MODIS":http://modis.gsfc.nasa.gov/ imagery, and a limited extract of the imagery available from the "MODIS Rapid Response site":http://lance.nasa.gov/imagery/rapid-response/ .
 
-The URL for the service is _http://realtime.gina.alaska.edu/modis_ .
+The URL for the service is _http://realtime.gina.alaska.edu/modis/year_ where year in the four digit format, like for example 2004. 
+
+The data received at GINA is available from 2004 onward, though data is missing for the winter months for first several years.  We plan eventually reprocess the data fill in these gaps.  The limited extract from the "MODIS Rapid Response site":http://lance.nasa.gov/imagery/rapid-response/ is availible from 2009 onwards.
 
 The service has two layer groups.  The layer group named "MODIS Rapid Response" contains a limited extract of data from the "MODIS Rapid Response site":http://lance.nasa.gov/imagery/rapid-response/ . The "MODIS True Color" layer group contains a natural color presentation of the MODIS data received at GINA, and includes most of Alaska.   Both layer groups are stored in Alaska Albers NAD83, and are intended to be used in that projection.
 
 An example, from TERRA-1, acquired on January 3rd, 2012.
 
-"<IMG SRC='http://realtime.gina.alaska.edu/modis?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=55.298173,-167.346363,62.702750,-159.566406&CRS=EPSG:4326&WIDTH=1056&HEIGHT=1006&LAYERS=20120103.2241.t1.geo&STYLES=&FORMAT=image/png&DPI=96&TRANSPARENT=TRUE' WIDTH=400>":http://realtime.gina.alaska.edu/modis?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=55.298173,-167.346363,62.702750,-159.566406&CRS=EPSG:4326&WIDTH=1056&HEIGHT=1006&LAYERS=20120103.2241.t1.geo&STYLES=&FORMAT=image/png&DPI=96&TRANSPARENT=TRUE
+"<IMG SRC='http://realtime.gina.alaska.edu/modis/2012?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=55.298173,-167.346363,62.702750,-159.566406&CRS=EPSG:4326&WIDTH=1056&HEIGHT=1006&LAYERS=20120103.2241.t1.geo&STYLES=&FORMAT=image/png&DPI=96&TRANSPARENT=TRUE' WIDTH=400>":http://realtime.gina.alaska.edu/modis/2012?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=55.298173,-167.346363,62.702750,-159.566406&CRS=EPSG:4326&WIDTH=1056&HEIGHT=1006&LAYERS=20120103.2241.t1.geo&STYLES=&FORMAT=image/png&DPI=96&TRANSPARENT=TRUE
 
 
