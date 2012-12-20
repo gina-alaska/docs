@@ -16,6 +16,7 @@ Here is a list of those services.
 *** "25k":web_25k_drg.html series 
 *** "24k":web_24k_drg.html series 
 ** "Natural Resource Canada Topos":web_nrcan_topo.html
+** "All the topographic maps":web_drg.html combined into one tileset
 ** "Landsat Pan":web_landsat_pan.html
 ** "TerraColor":web_terracolor.html
 ** "Shaded Relief NED":web_ned.html
