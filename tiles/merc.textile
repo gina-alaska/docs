@@ -23,5 +23,10 @@ Here is a list of those services.
 ** "GINA Topo/Bathymetry":web_gina_rgb.html or "Black and White":web_gina_bw.html
 * "NOAA Nautical Charts":web_noaa_charts.html
 * "FAA Charts":web_faa_charts.html
+* Additional Data
+** "Mat Su LiDAR & Imagery Project":http://www.matsugov.us/it/2011-lidar-imagery-project
+*** "Colored Hillshade":web_matsu_dem.html
+*** "Natural Color Imagery":web_matsu_imagery_rgb.html
+*** "Near IR Imagery":web_matsu_imagery_nir.html
 
 Examples on how to use the use this data within OpenLayers, Bing Maps, Google Maps version 2, and Google Maps version 3 can be found "here.":http://gisjam.gina.alaska.edu/aksmc2010 
