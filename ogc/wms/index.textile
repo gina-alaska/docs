@@ -14,6 +14,7 @@ Here is a list of various services available:
 * "FAA Charts":faa.html
 * "NOAA Charts":noaa.html
 * "Realtime MODIS":modis.html
+* "Alaska Energy Authority Susitna-Watana Hydro Project":http://gis.suhydro.org
 
 We also have some documentation on how to use our WMS services.
 
