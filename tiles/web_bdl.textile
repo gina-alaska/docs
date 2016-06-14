@@ -6,4 +6,4 @@ rest_url: "http://rest.tiles.gina.alaska.edu/rest/ArcGIS/rest/services/bdl/MapSe
 ---
 h1. Tiles for Web Mercator - BDL Example
 
-This service provides access to the SDMI BDL.
+This service provides access to the Statewide Digital Mapping Initiative Best Data Layer.
