@@ -1,0 +1,11 @@
+---
+layout: openlayers_tile
+title: "Tiles: Matsu Imagery"
+tile_url: "http://tiles.gina.alaska.edu/tilesrv/matsu_nir/"
+rest_url: "http://rest.tiles.gina.alaska.edu/rest/ArcGIS/rest/services/matsu_nir/MapServer"
+---
+
+Tiles for Web Mercator - Matsu Imagery
+======================================
+
+This service provides access to the imagery data from the [2011 Mat Su LiDAR & Imagery Project](http://www.matsugov.us/it/2011-lidar-imagery-project). The data is available via tiles for web mapping, and via a ESRI style rest interface. The imagery is presented as near infrared (NIR).
