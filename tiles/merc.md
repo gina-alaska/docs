@@ -29,14 +29,14 @@ Here is a list of those tiled datasets:
         [250k](web_250k_drg.html) series
             <a href="http://tiles.gina.alaska.edu/tilesrv/info/250k_drg_shaded"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/250k_drg_shaded/tile/0/0/0" alt="250k Shaded DRG"></a>
 
-        [63k](web_63k_drg.html) series
+        [63k](web_63k_drg_aa.html) series
             <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/63k_drg_shaded"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/63k_drg_shaded/tile/0/0/0" alt="63k Shaded DRG"></a>
 
         [25k](web_25k_drg.html) series
             <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/25k_drg_shaded"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/25k_drg_shaded/tile/0/0/0" alt="25k Shaded DRG"></a>
 
         [24k](web_24k_drg.html) series
-            <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/24k_drg_shaded"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/24k_drg_shaded/tile/0/0/0" alt="24k Shaded DRG"></a>
+            <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/24k_drg_shaded"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/24k_drg_shaded/tile/0/0/0" alt="24k Shaded DRG">
 
 
     - **[Natural Resource Canada Topos](web_nrcan_topo.html)**
