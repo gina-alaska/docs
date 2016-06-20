@@ -14,7 +14,7 @@ The extent for these services is +- 3500000.0 meters, that is to say the boundin
 
 Here is a list of those tiled datasets:
 
-- **[GINA's Best Data Available (BDL)](web_bdl.html)**
+- **[GINA's Best Data Available](web_bdl.html)**
     <p class="description">
     A compilation of various sources to provide the best available imagery base layer for Alaska.
     </p>
@@ -22,23 +22,6 @@ Here is a list of those tiled datasets:
     <a href="http://tiles.gina.alaska.edu/tilesrv/info/bdl_aa"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/bdl_aa/tile/0/0/0" alt="Best Data Layer"></a>
 
 - **GINA Extras**
-
-    - **[U.S. Geological Survey (USGS) Digital Raster Graphics](http://topomaps.usgs.gov/drg/) Topographic Maps**
-        <p class="description">
-        Scanned images of USGS standard series topographic maps, including all map collar information.
-        </p>
-
-        [250k](web_250k_drg_aa.html) series
-              <a href="http://tiles.gina.alaska.edu/tilesrv/info/250k_drg_shaded_aa"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/250k_drg_shaded_aa/tile/0/0/0" alt="250k Shaded DRG"></a>
-
-        [63k](web_63k_drg_aa.html) series
-              <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/63k_drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/63k_drg_shaded_aa/tile/0/0/0" alt="63k Shaded DRG"></a>
-
-        [25k](web_25k_drg_aa.html) series
-              <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/25k_drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/25k_drg_shaded_aa/tile/0/0/0" alt="25k Shaded DRG"></a>
-
-        [24k](web_24k_drg_aa.html) series
-              <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/24k_drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/24k_drg_shaded_aa/tile/0/0/0" alt="24k Shaded DRG"></a>
 
     - **[Alaska Energy Authority (AEA)](http://www.gina.alaska.edu/partners/alaska-energy-authority)**
         <p class="description">
@@ -53,7 +36,13 @@ Here is a list of those tiled datasets:
           <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_ak_shaded_relief_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_ak_shaded_relief_aa/tile/0/0/0" alt="Shaded Relief">
           <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_gina_bathymetry_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_gina_bathymetry_aa/tile/0/0/0" alt="Bathymetry">
 
+    - **[Circumpolar Arctic Vegetation Maps](http://www.geobotany.uaf.edu/cavm/)**
+        <p class="description">
+        The Circumpolar Arctic Vegetation Map (CAVM) project is an international effort to map the vegetation and associated characteristics of the circumpolar region, using a common base map. The base map is a false color infrared image created from Advanced Very High Resolution Radiometer (AVHRR) satellite data.
+        </p>
 
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/cavm_cir"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/cavm_cir/tile/0/0/0" alt="Color Infrared"></a>
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/cavm_veg"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/cavm_veg/tile/0/0/0" alt="Vegetation"></a>
 
     - **[Mat Su LiDAR & Imagery Project](http://www.matsugov.us/it/gis/2011-lidar-imagery-project)**
         <p class="description">
@@ -80,13 +69,22 @@ Here is a list of those tiled datasets:
         <a href="http://tiles.gina.alaska.edu/tilesrv/info/drg_nrcan_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/drg_nrcan_aa/tile/0/0/0" alt="Canada Topo"></a>
         <a href="http://tiles.gina.alaska.edu/tilesrv/info/drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/drg_shaded_aa/tile/0/0/0" alt="Canada Shaded"></a>
 
-    - **[Circumpolar Arctic Vegetation Maps](http://www.geobotany.uaf.edu/cavm/)**
+    - **[U.S. Geological Survey (USGS) Digital Raster Graphics](http://topomaps.usgs.gov/drg/) Topographic Maps**
         <p class="description">
-        The Circumpolar Arctic Vegetation Map (CAVM) project is an international effort to map the vegetation and associated characteristics of the circumpolar region, using a common base map. The base map is a false color infrared image created from Advanced Very High Resolution Radiometer (AVHRR) satellite data.
+        Scanned images of USGS standard series topographic maps, including all map collar information.
         </p>
 
-        <a href="http://tiles.gina.alaska.edu/tilesrv/info/cavm_cir"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/cavm_cir/tile/0/0/0" alt="Color Infrared"></a>
-        <a href="http://tiles.gina.alaska.edu/tilesrv/info/cavm_veg"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/cavm_veg/tile/0/0/0" alt="Vegetation"></a>
+        [250k](web_250k_drg_aa.html) series
+              <a href="http://tiles.gina.alaska.edu/tilesrv/info/250k_drg_shaded_aa"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/250k_drg_shaded_aa/tile/0/0/0" alt="250k Shaded DRG"></a>
+
+        [63k](web_63k_drg_aa.html) series
+              <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/63k_drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/63k_drg_shaded_aa/tile/0/0/0" alt="63k Shaded DRG"></a>
+
+        [25k](web_25k_drg_aa.html) series
+              <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/25k_drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/25k_drg_shaded_aa/tile/0/0/0" alt="25k Shaded DRG"></a>
+
+        [24k](web_24k_drg_aa.html) series
+              <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/24k_drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/24k_drg_shaded_aa/tile/0/0/0" alt="24k Shaded DRG"></a>
 
     - **[SPOT 5](http://www.gina.alaska.edu/data/satellite/spot-5)**
         <p class="description">
