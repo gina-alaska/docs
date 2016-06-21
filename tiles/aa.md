@@ -23,18 +23,16 @@ Here is a list of those tiled datasets:
 
 - **GINA Extras**
 
-    - **[Alaska Energy Authority (AEA)](http://www.gina.alaska.edu/partners/alaska-energy-authority)**
+    - **[AEDI](http://akenergyinventory.org/)** and **[Susitna-Watana Hydroelectric Project](http://www.susitna-watanahydro.org/project/project-description/)**
         <p class="description">
         GINA works with the Alaska Energy Authority on two projects: Alaska Energy Data Inventory (AEDI) and Susitna-Watana Hydro projects.
         </p>
 
-        - **[AEDI](http://akenergyinventory.org/)** and **[Susitna-Watana Hydroelectric Project](http://www.susitna-watanahydro.org/project/project-description/)**
-
-          <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_forest_biomass_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_forest_biomass_aa/tile/0/0/0" alt="Biomass"></a>
-          <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_wind_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_wind_aa/tile/0/0/0" alt="Wind"></a>
-          <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/hydro_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/hydro_aa/tile/0/0/0" alt="Hydro">
-          <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_ak_shaded_relief_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_ak_shaded_relief_aa/tile/0/0/0" alt="Shaded Relief">
-          <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_gina_bathymetry_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_gina_bathymetry_aa/tile/0/0/0" alt="Bathymetry">
+        <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_forest_biomass_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_forest_biomass_aa/tile/0/0/0" alt="Biomass"></a>
+        <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_wind_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_wind_aa/tile/0/0/0" alt="Wind"></a>
+        <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/hydro_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/hydro_aa/tile/0/0/0" alt="Hydro">
+        <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_ak_shaded_relief_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_ak_shaded_relief_aa/tile/0/0/0" alt="Shaded Relief">
+        <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_gina_bathymetry_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_gina_bathymetry_aa/tile/0/0/0" alt="Bathymetry">
 
     - **[Circumpolar Arctic Vegetation Maps](http://www.geobotany.uaf.edu/cavm/)**
         <p class="description">
@@ -43,6 +41,10 @@ Here is a list of those tiled datasets:
 
         <a href="http://tiles.gina.alaska.edu/tilesrv/info/cavm_cir"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/cavm_cir/tile/0/0/0" alt="Color Infrared"></a>
         <a href="http://tiles.gina.alaska.edu/tilesrv/info/cavm_veg"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/cavm_veg/tile/0/0/0" alt="Vegetation"></a>
+
+    - **[General Land Office (GLO)](http://www.glorecords.blm.gov/default.aspx)**
+    
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/glo"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/glo/tile/0/0/0" alt="General Land Office"></a>
 
     - **[Mat Su LiDAR & Imagery Project](http://www.matsugov.us/it/gis/2011-lidar-imagery-project)**
         <p class="description">
@@ -67,7 +69,31 @@ Here is a list of those tiled datasets:
         </p>
 
         <a href="http://tiles.gina.alaska.edu/tilesrv/info/drg_nrcan_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/drg_nrcan_aa/tile/0/0/0" alt="Canada Topo"></a>
-        <a href="http://tiles.gina.alaska.edu/tilesrv/info/drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/drg_shaded_aa/tile/0/0/0" alt="Canada Shaded"></a>
+
+    - **[Open Street Map](https://www.openstreetmap.org/about)**
+        <p class="description">
+        OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.
+        </p>
+
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/osm"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/osm/tile/0/0/0" alt="OpenStreetMap"></a>
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/osm-ol"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/osm-ol/tile/0/0/0" alt="OpenStreetMap ol"></a>
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/osm-water"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/osm-water/tile/0/0/0" alt="OpenStreetMap Water"></a>
+
+    - **[SPOT 5](http://www.gina.alaska.edu/data/satellite/spot-5)**
+        <p class="description">
+        GINA has a large SPOT 5 archive for Alaska users through the Statewide Digital Mapping Initiative’s (SDMI) statewide ortho project. SDMI is using the SPOT5 satellite as the source data for the statewide orthomosaic program. The level 1A source imagery is useful for expert researchers needing to do spectral analysis of the raw satellite imagery.
+        </p>
+
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/SPOT5.SDMI.ORTHO_CIR_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/SPOT5.SDMI.ORTHO_CIR_aa/tile/0/0/0" alt="Color Infrared"></a>
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/SPOT5.SDMI.ORTHO_PAN_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/SPOT5.SDMI.ORTHO_PAN_aa/tile/0/0/0" alt="Panchromatic"></a>
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/SPOT5.SDMI.ORTHO_RGB_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/SPOT5.SDMI.ORTHO_RGB_aa/tile/0/0/0" alt="RGB"></a>
+
+    - **All the [topographic maps](web_drg.html) combined into one tileset**
+        <p class="description">
+        This service provides access to a single tileset with the best topographic maps, and switches intelligently so the most appropriate map is displayed for the scale requested. It contains the USGS Digital Raster Graphics and the Natural Resources Canada 1:250,000 scale topographic maps series as tiles in an ESRI Rest compatible format.
+        </p>
+
+        <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/drg_shaded_aa/tile/0/0/0" alt="Shaded DRG">
 
     - **[U.S. Geological Survey (USGS) Digital Raster Graphics](http://topomaps.usgs.gov/drg/) Topographic Maps**
         <p class="description">
@@ -85,15 +111,3 @@ Here is a list of those tiled datasets:
 
         [24k](web_24k_drg_aa.html) series
               <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/24k_drg_shaded_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/24k_drg_shaded_aa/tile/0/0/0" alt="24k Shaded DRG"></a>
-
-    - **[SPOT 5](http://www.gina.alaska.edu/data/satellite/spot-5)**
-        <p class="description">
-        GINA has a large SPOT 5 archive for Alaska users through the Statewide Digital Mapping Initative’s (SDMI) statewide ortho project. SDMI is using the SPOT5 satellite as the source data for the statewide ortho mosaic program. The level 1A source imagery is useful for expert researchers needing to do spectral analysis of the raw satellite imagery.
-        </p>
-
-        <a href="http://tiles.gina.alaska.edu/tilesrv/info/SPOT5.SDMI.ORTHO_CIR_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/SPOT5.SDMI.ORTHO_CIR_aa/tile/0/0/0" alt="Color Infrared"></a>
-        <a href="http://tiles.gina.alaska.edu/tilesrv/info/SPOT5.SDMI.ORTHO_PAN_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/SPOT5.SDMI.ORTHO_PAN_aa/tile/0/0/0" alt="Panchromatic"></a>
-        <a href="http://tiles.gina.alaska.edu/tilesrv/info/SPOT5.SDMI.ORTHO_RGB_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/SPOT5.SDMI.ORTHO_RGB_aa/tile/0/0/0" alt="RGB"></a>
-
-
-Examples on how to use the use this data within OpenLayers can be found [here.](http://gisjam.gina.alaska.edu/aksmc2010)
