@@ -20,6 +20,11 @@ Here is a list of those tiled datasets:
     <a href="http://tiles.gina.alaska.edu/tilesrv/info/bdl"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/bdl/tile/0/0/0" alt="Best Data Layer" hover="Best Data Later"></a>
     <a href="http://tiles.gina.alaska.edu/tilesrv/info/bdl_esri_test"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/bdl_esri_test/tile/0/0/0" alt="Best Data Layer" hover="Best Data Later ESRI test"></a>
     <a href="http://tiles.gina.alaska.edu/tilesrv/info/bdl_geo"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/bdl_geo/tile/0/0/0" alt="Best Data Layer" hover="Best Data Later geo"></a>
+    <a href="http://tiles.gina.alaska.edu/tilesrv/info/bdl_3573"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/bdl_3573/tile/0/0/0" alt="Best Data Layer" hover="EPSG 3573"></a>
+    <a href="http://tiles.gina.alaska.edu/tilesrv/info/bdl_3574"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/bdl_3574/tile/0/0/0" alt="Best Data Layer" hover="EPSG 3574"></a>
+
+    <a href="http://tiles.gina.alaska.edu/tilesrv/info/bdl_3575"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/bdl_3575/tile/0/0/0" alt="Best Data Layer" hover="EPSG 3575"></a>
+    <a href="http://tiles.gina.alaska.edu/tilesrv/info/bdl_3576"><img class="icon"  src="http://tiles.gina.alaska.edu/tiles/bdl_3576/tile/0/0/0" alt="Best Data Layer" hover="EPSG 3576"></a>
 
 - **GINA Extras**
 
@@ -69,10 +74,6 @@ Here is a list of those tiled datasets:
 
         <a href="http://tiles.gina.alaska.edu/tilesrv/info/gina_bathymetry_bw_google"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/gina_bathymetry_bw_google/tile/0/0/0" alt="BW Bathymetry"></a>
         <a href="http://tiles.gina.alaska.edu/tilesrv/info/gina_bathymetry_rgb_google"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/gina_bathymetry_rgb_google/tile/0/0/0" alt="RGB Bathymetry"></a>
-
-    - **[General Land Office (GLO)](http://www.glorecords.blm.gov/default.aspx)**
-
-        <a href="http://tiles.gina.alaska.edu/tilesrv/info/glo_google"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/glo_google/tile/0/0/0" alt="General Land Office"></a>
 
     - **[Landsat Pan](web_landsat_pan.html)**
         <p class="description">
@@ -162,6 +163,18 @@ Here is a list of those tiled datasets:
         <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_wind_google"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_wind_google/tile/0/0/0" alt="Wind"></a>
         <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/hydro_google"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/hydro_google/tile/0/0/0" alt="Hydro">
         <a style="margin-left:8px;" href="http://tiles.gina.alaska.edu/tilesrv/info/aea_gina_bathymetry_google"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/aea_gina_bathymetry_google/tile/0/0/0" alt="Bathymetry">
+
+    - **[Circumpolar Arctic Vegetation Maps](http://www.geobotany.uaf.edu/cavm/)**
+        <p class="description">
+        The Circumpolar Arctic Vegetation Map (CAVM) project is an international effort to map the vegetation and associated characteristics of the circumpolar region, using a common base map. The base map is a false color infrared image created from Advanced Very High Resolution Radiometer (AVHRR) satellite data.
+        </p>
+
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/cavm_cir"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/cavm_cir/tile/0/0/0" alt="Color Infrared"></a>
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/cavm_veg"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/cavm_veg/tile/0/0/0" alt="Vegetation"></a>
+
+    - **[General Land Office (GLO)](http://www.glorecords.blm.gov/default.aspx)**
+
+        <a href="http://tiles.gina.alaska.edu/tilesrv/info/glo_google"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/glo_google/tile/0/0/0" alt="General Land Office"></a>
 
     - **[Mat Su LiDAR & Imagery Project](http://www.matsugov.us/it/gis/2011-lidar-imagery-project)**
         <p class="description">
