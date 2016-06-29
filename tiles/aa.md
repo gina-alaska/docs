@@ -74,7 +74,7 @@ Here is a list of those tiled datasets:
 
     - **[SPOT 5](http://www.gina.alaska.edu/data/satellite/spot-5)**
         <p class="description">
-        GINA has a large SPOT 5 archive for Alaska users through the Statewide Digital Mapping Initiative’s (SDMI) statewide ortho project. SDMI is using the SPOT5 satellite as the source data for the statewide orthomosaic program. The level 1A source imagery is useful for expert researchers needing to do spectral analysis of the raw satellite imagery.
+        GINA has a large SPOT 5 archive for Alaska users through the Statewide Digital Mapping Initiative’s (SDMI) statewide ortho project. SDMI is using the SPOT5 satellite as the source data for the statewide orthomosaic program. The level 1A source imagery is useful for expert researchers needing to do spectral analysis of the raw satellite imagery. Use these tiles if you are interested in a single consistent natural color base-layer at 2.5 meters resolution.
         </p>
 
         <a href="http://tiles.gina.alaska.edu/tilesrv/info/SPOT5.SDMI.ORTHO_CIR_aa"><img class="icon" src="http://tiles.gina.alaska.edu/tiles/SPOT5.SDMI.ORTHO_CIR_aa/tile/0/0/0" alt="Color Infrared"></a>
