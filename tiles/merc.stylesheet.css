@@ -1,0 +1,29 @@
+.icon {
+  height:75px;
+  width:75px;
+  border:1px solid black;
+  margin: -20px 10px 0px 10px;
+}
+
+.description {
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.scale {
+  margin-bottom:50px;
+}
+
+.matsu-icon {
+  height:75px;
+  width:75px;
+  border:1px solid black;
+  margin: -20px 10px -20px 10px;
+}
+
+figcaption {
+  width:70px;
+  text-align:cetner;
+  display:block;
+}

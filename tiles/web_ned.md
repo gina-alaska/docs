@@ -1,0 +1,11 @@
+---
+layout: openlayers_tile
+title: "Tiles: Shaded Relief NED"
+tile_url: "http://tiles.gina.alaska.edu/tilesrv/shaded_relief_ned/"
+rest_url: "http://rest.tiles.gina.alaska.edu/rest/ArcGIS/rest/services/shaded_relief_ned/MapServer"
+---
+
+Tiles - Shaded Relief NED
+=========================
+
+This service provides access a shaped relief dataset derived from the National Elevation Dataset (NED) .

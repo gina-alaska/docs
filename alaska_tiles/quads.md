@@ -3,9 +3,12 @@ layout: openlayers_aa
 title: "Tiles: Quads"
 tile_url: "http://tiles.proto.gina.alaska.edu/test/tilesrv/quad_aa/tile"
 ---
-h1. Tiles in Alaska Albers: Quads
+
+Tiles in Alaska Albers: Quads
+=============================
 
 Something meaningful goes here..
 
 The url for the service is:
-* *_{{page.tile_url}}_*
+
+-   ***<span style="{page.tile_url;">}</span>***
