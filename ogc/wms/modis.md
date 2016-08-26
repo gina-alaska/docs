@@ -5,11 +5,13 @@ title: "WMS:Realtime Modis"
 
 **Realtime Modis**
 
-We are providing a WMS service with access to a subset of our stockpile of near realtime [MODIS](http://modis.gsfc.nasa.gov/) imagery, and a limited extract of the imagery available from the [MODIS Rapid Response site](http://lance.nasa.gov/imagery/rapid-response/) .
+In support of the Alaska National Park Service long term monitoring of Alaska parks GINA provides a WMS service with access to a subset of our stockpile of near realtime [MODIS](http://modis.gsfc.nasa.gov/) imagery, and a limited extract of the imagery available from the [MODIS Rapid Response site](http://lance.nasa.gov/imagery/rapid-response/).  
 
-The URL for the service is *http://realtime.gina.alaska.edu/modis/year* where year in the four digit format, like for example 2004.
+The URL for the service is *http://realtime.gina.alaska.edu/modis/_year_* where year in the four digit format, like for example 2004.
 
-The data received at GINA is available from 2004 onward, though data is missing for the winter months for first several years. We plan eventually reprocess the data fill in these gaps. The limited extract from the [MODIS Rapid Response site](http://lance.nasa.gov/imagery/rapid-response/) is availible from 2009 onwards.
+The data received at GINA is available from 2004 onward, though data is missing for the winter months for first several years. 
+
+The limited extract from the [MODIS Rapid Response site](http://lance.nasa.gov/imagery/rapid-response/) is availible from 2009 onwards. The limited extract is focused around 
 
 The service has two layer groups. The layer group named "MODIS Rapid Response" contains a limited extract of data from the [MODIS Rapid Response site](http://lance.nasa.gov/imagery/rapid-response/) . The "MODIS True Color" layer group contains a natural color presentation of the MODIS data received at GINA, and includes most of Alaska. Both layer groups are stored in Alaska Albers NAD83, and are intended to be used in that projection.
 
